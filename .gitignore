@@ -1,0 +1,54 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Asset meta files do NOT belong here (Unity needs them in git)
+
+# Visual Studio / Rider
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+sysinfo.txt
+
+# Built binaries
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlog
+sysinfo.txt
+crashlytics-build.properties
+
+# Custom — local config / secrets
+# CLAUDE.md contains a personal GitHub token + remote URL. Never commit.
+CLAUDE.md
+*.token
+.env
+.env.local
+secrets/
+
