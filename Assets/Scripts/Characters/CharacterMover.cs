@@ -30,7 +30,7 @@ namespace Roller.Characters
 
             // 출발 칸의 occupant 해제
             var startCell = _entity.Map.Get(_entity.Position);
-            if (startCell != null && startCell.Occupant == _entity) startCell.Occupant = null;
+            if (startCell != null && ReferenceEquals(startCell.Occupant, _entity)) startCell.Occupant = null;
 
             // 첫 칸(현재)은 건너뛰고 다음 칸부터 이동
             for (int i = 1; i < path.Count; i++)

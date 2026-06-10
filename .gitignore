@@ -14,7 +14,9 @@
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
+.vscode/
 *.tmp
 *.user
 *.userprefs
@@ -51,4 +53,9 @@ CLAUDE.md
 .env
 .env.local
 secrets/
+
+# Local scratch / unrelated sibling projects (do not commit)
+1.png
+[Mm]y project/
+gersang/
 
